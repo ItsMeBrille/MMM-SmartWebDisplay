@@ -115,7 +115,6 @@ resume: function() { //function called when module is displayed again
 		Log.log("Fct resume - ModuleHidden = " + this.ModuleiFrameHidden);
 	}
 	
-	this.GestionUpdateIntervalSWD();	
 },
 
 notificationReceived: function(notification, payload) {
